@@ -11,9 +11,9 @@ class User{
     }
     
 }
-console.log('tina',"tina@kenya");
-// const user = new User ("tina","tina@kenya")
-// console.log(follow(userDetails));
+// console.log('tina',"tina@kenya");
+ const user = new User ({name:"tina",following:"tina@kenya"})
+ console.log(user);
 // console.log(this.userFollowing);
 
 
